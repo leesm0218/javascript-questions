@@ -18,7 +18,7 @@
 
 ---
 
-<details><summary><b> 사용 가능한 번역 20개 🇸🇦🇪🇬🇧🇦🇬🇧🇩🇪🇪🇸🇫🇷🇮🇩🇯🇵🇳🇱🇧🇷🇷🇺🇹🇭🇹🇷🇺🇦🇻🇳🇨🇳🇹🇼🇽🇰</b></summary>
+<details><summary><b> 사용 가능한 번역 20개 </b></summary>
 <p>
 
 - [🇸🇦 العربية](../ar-AR/README_AR.md)
@@ -47,10 +47,307 @@
 </p>
 </details>
 
+<details><summary><b> 키워드별 문제 번호 </b></summary>
+<p>
+
+<details><summary><b> 변수, 스코프 </b></summary>
+<p>
+var : [ 1, 2, 23, ]
+<br>let : [ 1, 2, ]
+<br>const : [ 84, 129, 143, ]
+<br>호이스팅 : [ 1, 111, 129, ]
+<br>스코프 : [ 2, 38, 54, 84, 123, ]
+<br>TDZ : [ 129, ]
+<br>재선언: [23]
+</p>
+</details>
+
+<details><summary><b> 전역 변수, strict 모드 </b></summary>
+<p>
+전역 변수 : [ 9, 12, 20, 54, ]
+<br>use strict : [ 9, 20, ]
+</p>
+</details>
+
+<details><summary><b> this,  컨텍스트 </b></summary>
+<p>
+this : [ 3, 8, 11, 33, 82, 151, ]
+<br>call : [ 33, ]
+<br>bind : [ 33, ]
+<br>화살표 함수 : [ 3, 92, 98, 113, 123, 148, 151, ]
+<br>전역 실행 컨텍스트 : [ 26, ]
+</p>
+</details>
+
+<details><summary><b> 객체, 참조 </b></summary>
+<p>
+객체 : [ 3, 5, 6, 7, 18, 24, 25, 29, 39, 46, 51, 61, 64, 83, 105, 109, 114, 115, 116, 141, 147, 148, ]
+<br>객체 참조 : [ 46, 51, 64, 83, 105, 109, 114, 115, 116, 141, 147, ]
+<br>얕은 복사 : [ 6, 46, 64, ]
+<br>defineProperty : [ 61, ]
+<br>반복 가능한 객체 : [ 43, ]
+<br>열거 불가능 : [ 97, ]
+<br>hasOwnProperty : [ 24, ]
+<br>get : [ 135, ]
+<br>set : [ 135, ]
+<br>가비지컬렉터 : [ 114, ]
+<br>Proxy : [ 135, ]
+<br>delete : [ 58, ]
+<br>점 표기법 : [ 106, ]
+<br>참조 : [ 6, ]
+<br>프로토타입 : [ 14, 55, 92, ]
+<br>기본 객체 : [ 14, ]
+<br>setter : [ 121, ]
+<br>옵셔널 체이닝: [119, 146]
+</p>
+</details>
+
+<details><summary><b> 연산자</b></summary>
+<p>
+단항 연산자 : [ 4, 16, 63, ]
+<br>논리 연산자 : [ 41, 86, 100, 101, 122, 155, ]
+<br>산술 연산자 : [ 70, 103, ]
+<br>증감 연산자 : [ 118, ]
+<br>삼항 연산자 : [ 154, ]
+<br>== : [ 7, 18, 105, ]
+<br>=== : [ 7, 18, 68, 105, 107, 155, ]
+<br>연산자 우선순위 : [ 48, ]
+<br>접두사-접미사 : [ 16, 63, ]
+<br>단축 평가 : [ 100, 101, ]
+<br>falsy-truthy : [ 4, 35, 41, 86, 100, 101, 120, 145, ]
+</p>
+</details>
+
+<details><summary><b> 구조 분해 할당 </b></summary>
+<p>
+rest 파라미터 : [ 19, 94, ]
+<br>spread 연산자 : [ 43, 60, 117, 143, 144, 150, ]
+<br>구조 분해 할당 : [ 59, 76, 93, 98, 125, 127, ]
+</p>
+</details>
+
+<details><summary><b> event </b></summary>
+<p>
+이벤트 전파 : [ 13, 31, 32, ]
+<br>캡처링 : [ 13, 31, 32, ]
+<br>버블링 : [ 13, 32, ]
+<br>타겟 : [ 13, 32, ]
+<br>event.target : [ 31, ]
+</p>
+</details>
+
+<details><summary><b> 비동기작업 </b></summary>
+<p>
+setTimeout : [ 30, 133, ]
+<br>이벤트 루프 : [ 30, ]
+<br>WebAPI : [ 30, ]
+<br>setInterval : [ 42, 114, ]
+<br>clearInterval : [ 42, ]
+<br>async : [ 73, 102, 124, 133, ]
+<br>await : [ 73, 102, 133, ]
+<br>for-await : [ 124, ]
+<br>Promise : [ 73, 85, 102, 130, 133, ]
+<br>Promise.race : [ 45, ]
+<br>Promise.resolve : [ 104, ]
+<br>Promise.all : [ 152, ]
+<br>then : [ 85, ]
+<br>fetch : [ 85, ]
+</p>
+</details>
+
+<details><summary><b> 배열, 배열 메소드 </b></summary>
+<p>
+배열 : [ 37, 80, ]
+<br>push : [ 74, 91, 143, ]
+<br>unshift : [ 149, ]
+<br>빈 슬롯 : [ 37, ]
+<br>flat : [ 131, ]
+<br>인덱스 : [ 87, ]
+<br>indexOf: [120]
+<br>map : [ 50, 108, ]
+<br>reduce : [ 40, 65, 108, ]
+<br>초기값 : [ 40, ]
+<br>filter : [ 108, ]
+<br>find : [ 108, ]
+<br>slice : [ 108, 149, ]
+<br>splice : [ 108, 143, 149, ]
+</p>
+</details>
+
+<details><summary><b> 예외 처리 </b></summary>
+<p>
+try-catch : [ 38, 52, 130, ]
+<br>throw : [ 38, 52, ]
+<br>finally : [ 130, ]
+</p>
+</details>
+
+<details><summary><b> Object 메소드 </b></summary>
+<p>
+Object.keys : [ 61, 97, ]
+<br>Object.freeze : [ 75, 137, ]
+<br>Object.entries : [ 93, ]
+<br>Object.seal : [ 136, ]
+<br>Object.assign : [ 148, ]
+<br>Object.fromEntries : [ 153, ]
+</p>
+</details>
+
+<details><summary><b> 모듈 </b></summary>
+<p>
+import : [ 67, 89, 134, ]
+<br>export : [ 134, ]
+<br>default export : [ 89, ]
+<br>모듈 : [ 57, ]
+<br>require : [ 67, ]
+<br>eval : [ 21, ]
+</p>
+</details>
+
+<details><summary><b> NaN </b></summary>
+<p>
+isNaN : [ 128, ]
+<br>Number.isNaN : [ 128, ]
+</p>
+</details>
+
+<details><summary><b> 제너레이터 </b></summary>
+<p>
+제너레이터 : [ 44, 71, 112, 124, 140, 144,]
+</p>
+</details>
+
+<details><summary><b> 브라우저에서 데이터 저장. </b></summary>
+<p>
+sessionStorage : [ 22, ]
+<br>데이터 지속성 : [ 22, ]
+</p>
+</details>
+
+<details><summary><b> 생성자, 클래스 </b></summary>
+<p>
+생성자 함수 : [ 11, 53, ]
+<br>new : [ 12, ]
+<br>클래스 : [ 8, 90, 96, 132, 142, 147, ]
+<br>클래스 상속 : [ 66, ]
+<br>super : [ 66, 142, ]
+<br>생성자 : [ 66, 96, 142, ]
+<br>private : [ 139, ]
+<br># : [ 139, ]
+</p>
+</details>
+
+<details><summary><b> JSON </b></summary>
+<p>
+JSON.stringify : [ 62, ]
+<br>JSON 속성 필터링 : [ 62, ]
+<br>JSON.parse: [110]
+</p>
+</details>
+
+<details><summary><b> 캐싱 </b></summary>
+<p>
+memoization : [ 78, ]
+<br>캐싱 : [ 78, ]
+</p>
+</details>
+
+<details><summary><b> 내장 객체 </b></summary>
+<p>
+내장 객체 : [ 28, ]
+<br>내장 생성자 : [ 28, ]
+<br>String.prototype : [ 28, ]
+</p>
+</details>
+
+<details><summary><b> 심볼 </b></summary>
+<p>
+Symbol : [ 68, 97, 144, ]
+<br>유니크 값 : [ 68, ]
+<br>Symbol.iterator : [ 144, ]
+</p>
+</details>
+
+<details><summary><b> 기본값 매개변수 </b></summary>
+<p>
+기본값 매개변수 : [ 64, 81, 88, 105, 116, 138, 141, 154, ]
+</p>
+</details>
+
+<details><summary><b> Set </b></summary>
+<p>
+Set : [ 24, 56, 103, ]
+<br>has : [ 24, ]
+</p>
+</details>
+
+<details><summary><b> 반복문 </b></summary>
+<p>
+for in : [ 47, 79, ]
+<br>for of : [ 79, 93, ]
+<br>forEach : [ 145, ]
+<br>continue : [ 27, ]
+</p>
+</details>
+
+<details><summary><b> 문자열 </b></summary>
+<p>
+문자열 배열 : [ 17, ]
+<br>표현식 : [ 17, 80, ]
+<br>문자열화: [29]
+<br>문자열: [70, 87]
+<br>padStart: [69]
+<br>String.raw: [72]
+<br>유니코드: [107]
+</p>
+</details>
+
+<details><summary><b> 데이터 타입 </b></summary>
+<p>
+형 변환 : [ 4, 15, ]
+<br>타입 변환 : [ 48, ]
+<br>typeof : [ 36, 122, ]
+<br>원시 타입 : [ 18, ]
+<br>원시형 : [ 39, ]
+<br>데이터 타입 : [ 39, 99, ]
+</p>
+</details>
+
+<details><summary><b> 숫자 관련 메소드 </b></summary>
+<p>
+parseInt : [ 49, ]
+<br>Intl.NumberFormat : [ 126, ]
+</p>
+</details>
+
+<details><summary><b> 함수 </b></summary>
+<p>
+정적 메소드: [8]
+<br>함수 속성: [10]
+<br>콜백: [30]
+<br>IIFE: [34, 113]
+<br>순수 함수: [77]
+<br>매개변수: [88, 125]
+<br>커링: [123]
+<br>return: [95]
+<br>자동 세미콜론 삽입: [95]
+<br>인수: [51]
+</p>
+</details>
+
+<details><summary><b> 템플릿 리터럴 </b></summary>
+<p>
+태그 템플릿 리터럴: [17]
+<br>템플릿 리터럴: [113]
+</p>
+</details>
+
+
+</p>
+</details>
 ---
 
 ###### 1. 무엇이 출력 될까요?
-
 ```javascript
 function sayHi() {
   console.log(name);
@@ -82,7 +379,7 @@ sayHi();
 ---
 
 ###### 2. 무엇이 출력 될까요?
-
+#var, let, 스코프
 ```javascript
 for (var i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
@@ -474,6 +771,15 @@ console.log(sarah);
 
 **기본 객체**를 제외한, 모든 객체는 프로토타입을 가져요. 기본 객체는 사용자가 만든 객체이거나 `new` 키워드를 사용해 만들어진 객체예요. 기본 객체는 `.toString`과 같은 몇 개의 메소드와 속성에 접근할 수 있어요. 이것이 내장 JavaScript 메소드를 사용할 수 있는 이유죠! 이러한 모든 메소드는 프로토타입에서 사용할 수 있어요. JavaScript가 당신의 객체를 바로 찾을 수 없더라도, 당신이 접근할 수 있도록 프로토타입 체인으로 내려가 찾을 거예요.
 
+https://stackoverflow.com/questions/70814792/in-javascript-all-objects-have-prototypes-except-for-the-base-object
+
+```javascript
+const obj = {};
+console.log(Object.getPrototypeOf(obj) === Object.prototype);
+console.log(Object.getPrototypeOf(Object.prototype) === null);
+console.log(Object.getPrototypeOf(Object.create(null)) === null);
+```
+
 </p>
 </details>
 
@@ -570,6 +876,7 @@ getPersonInfo`${person} is ${age} years old`;
 
 태그가 지정된 템플릿 리터럴을 사용한다면, 첫 번째 인수의 값은 항상 문자열 값의 배열이에요. 나머지 인수는 표현식을 통과한 값을 가져요.
 
+getPersonInfo(`${person} is ${age} years old`); 가 아닌것에 유의.
 </p>
 </details>
 
@@ -866,6 +1173,7 @@ console.log(name.giveLydiaPizza())
 
 `String`은 내장 생성자로 속성을 추가할 수 있어요. 그냥 문자열 프로토타입에 메소드를 추가한거예요. 원시형 문자열은 문자열 프로토타입 함수가 생성한 문자열 객체로 자동 변환돼요. 그래서, 모든 문자열(문자열 객체)은 그 메소드에 접근할 수 있어요!
 
+내장 생성자-객체에는  Object-일반 객체 , String-문자열열 객체, Number-숫자형 객체, 등이 있습니다.
 </p>
 </details>
 
@@ -1194,6 +1502,21 @@ console.log(numbers);
 후에, 블록-스코프 변수는 `1`로 설정하고, 변수 `y`의 값을 설정해요. 여기서, 블록-스코프의 변수 `x`를 출력하는데, 이것은 `1`이에요.
 
 `catch` 블록 밖에서, `x`는 여전히 `undefined`이고 `y`는 `2`이에요. `catch` 블록 밖에서 `console.log(x)`를 출력하면, `undefined`를 반환하고. 그리고 `y`는 `2`를 반환해요.
+
+```javascript
+(() => {
+  let x, y;
+  try {
+    throw new Error();
+  } catch (x) {
+    x = 1;
+    y = 2;
+    console.log("in catch: ", x);
+  }
+  console.log("out catch: ", x);
+  console.log("out catch: ", y);
+})();
+```
 
 </p>
 </details>
@@ -1859,6 +2182,7 @@ console.log(y);
 
 이것은 `y`의 값은 숫자 `1`인 배열의 첫 번째 값과 같다는 것을 의미해요. `y`를 출력하면 `1`이 반환돼요.
 
+React에서 자주 쓰이는 const [a,seta] = useState(); 도 구조 분해 할당을 사용한 코드입니다.
 </p>
 </details>
 
@@ -1914,6 +2238,28 @@ console.log(Object.keys(person));
 `defineProperty`메소드를 사용해, 객체에 새로운 속성을 추가하거나 기존 속성을 수정할 수 있어요. `defineProperty` 메소드를 사용해 객체의 속성을 추가할 때, 객체의 속성은 기본적으로 _비 열거자_ 예요. `Object.keys`메소드는 모든 _열거자_ 객체의 속성 이름을 반환하는데, 이 경우는 `"name"` 뿐이에요.
 
 `defineProperty`를 사용해 추가된 속성은 기본적으로 변경할 수 없어요. `writable`, `configurable` 그리고 `enumerable` 속성을 사용해 덮어쓸 수 있어요. `defineProperty`메소드를 사용하는 방법은 객체에 추가하는 속성을 훨씬 더 많이 제어할 수 있어요.
+
+```javascript
+const person = { name: 'Lydia' };
+
+Object.defineProperty(person, 'age', {
+  value: 21,
+  writable: true,
+  enumerable: true,
+  configurable: true,
+  });
+
+//enumerable
+console.log(Object.keys(person));
+
+//writable
+person.age = 22;
+console.log(person);
+
+//configurable
+delete person.age;
+console.log(person);
+```
 
 </p>
 </details>
@@ -2139,6 +2485,18 @@ export const sum = (a, b) => a + b;
 `import` 키워드를 사용하면, 모든 import된 modules은 _우선-파싱_ 되어요. import된 모듈은 _처음에_ 실행되는 것을 의미하고, import한 파일 안에 있는 코드는 _나중에_ 실행돼요.
 
 이것은 CommonJSd의 `require()`와 `import`의 차이예요! `require()`을 사용하면, 런타임 중 코드에서 필요한 시점에 의존성 모듈을 로드 할 수 있어요. 만약 `import` 대신에 `require`을 사용하면, `running index.js`, `running sum.js`, `3`으로 콘솔에 출력될 거에요.
+
+```javascript
+// index.js
+globalThis[hello] = hello;
+const test = require('./sum.js');
+console.log(test[hello]);
+
+// sum.js
+module.exports = {
+  [globalThis.hello]: 'world',
+}
+```
 
 </p>
 </details>
@@ -2413,6 +2771,12 @@ console.log(name);
 `{ name: myName }`은, JavaScript에게 오른쪽에 있는 `name`속성의 값을 가진 `myName`이라고 불리는 새로운 변수를 만든다고 말하는 거예요.
 
 `name`을 출력하려고 하면, 변수는 정의되지 않아 ReferenceError를 던질거예요.
+
+```javascript
+const { name: myName } = { name: 'Lydia' };
+
+console.log(myName);
+```
 
 </p>
 </details>
@@ -3149,6 +3513,17 @@ rest 파라미터를 사용해 `...y`에 모든 "남은" 인수을 배열에 넣
 
 이 경우 값이 반환되는 값이 없으므로, 함수는 `undefined`을 반환해요.
 
+
+```javascript
+const getList = ([x, ...y]) => [x, y]
+const getUser = user => ({ name: user.name, age: user.age })
+
+const list = [1, 2, 3, 4]
+const user = { name: "Lydia", age: 21 }
+
+console.log(getList(list))
+console.log(getUser(user))
+```
 </p>
 </details>
 
@@ -3207,6 +3582,11 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 
 `""`은 거짓 같은 값이에요. 만약 왼쪽 값이 거짓 같은 값이라면, 반환되는 것은 없어요. `n't`은 반환되지 않아요.
 
+```javascript
+const output = `${[] && 'Im'}possible! You should${'' && `n't`} see a therapist after so much JavaScript lol`;
+
+console.log(output);
+```
 </p>
 </details>
 
